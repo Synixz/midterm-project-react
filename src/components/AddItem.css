@@ -1,0 +1,52 @@
+.add-item-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+
+.add-item-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.add-item-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.add-item-form input,
+.add-item-form select {
+    width: 100%; 
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+}
+
+
+.add-item-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+
+.add-item-form button:hover {
+    background-color: #f0db4f; 
+}
